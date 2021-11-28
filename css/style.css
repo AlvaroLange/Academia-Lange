@@ -25,7 +25,7 @@ html {
         "community"
         "footer";
         grid-template-columns: 100%;
-        grid-template-rows: 100px 50px 500px 700px 700px 700px 350px;
+        grid-template-rows: 100px 50px 550px 600px 600px 600px 350px;
     }
     /*grid areas*/
 
@@ -183,6 +183,193 @@ html {
         display: flex;
         justify-content: center;
     }
+    .botonFacebookAds {
+        border: solid 3px #1c2636;
+        padding: 5px;
+        border-radius: 10px;
+    }
+    .botonFacebookAdsInicio {
+        display: flex;
+        justify-content: center;
+    }
+    .botonFacebook {
+        text-decoration: none;
+        color: #1c2636;
+    }
 
+    /*Instagram para negocios*/
+    .instagramInicio {
+        padding: 0px 20px;
+    }
+    .divInstagramInicio {
+        display: flex;
+        justify-content: center;
+        background-color: white;
+        border: solid 3px #1c2636;
+        text-align: center;
+        padding: 0px 5px;
+    }
+    .tituloInstagramInicio {
+        color: #1c2636;
+        font-size: 35px;
+    }
+    .imgInstagramInicio {
+        width: 655px;
+        margin: 10px 0px;
+        border: solid 3px #1c2636;
+        max-width: 100%;
+    }
+    .imagenInstagram {
+        display: flex;
+        justify-content: center;
+    }
+    .botonInstagram {
+        border: solid 3px #1c2636;
+        padding: 5px;
+        border-radius: 10px;
+    }
+    .botonIG {
+        display: flex;
+        justify-content: center;
+    }
+    .botonInstagramInicio {
+        text-decoration: none;
+        color: #1c2636;
+    }
+    /*Community Manager*/
+
+    .communityInicio {
+        padding: 0px 20px;
+    }
+    .divCommunityInicio {
+        display: flex;
+        justify-content: center;
+        background-color: white;
+        border: solid 3px #1c2636;
+        text-align: center;
+        padding: 0px 5px;
+    }
+    .tituloCommunityInicio {
+        color: #1c2636;
+        font-size: 35px;
+    }
+    .imgCommunityInicio {
+        width: 655px;
+        margin: 10px 0px;
+        border: solid 3px #1c2636;
+        max-width: 100%;
+    }
+    .imagenCommunity{
+        display: flex;
+        justify-content: center;
+    }
+    .botonManager{
+        border: solid 3px #1c2636;
+        padding: 5px;
+        border-radius: 10px;
+    }
+    .botonCommunity{
+        display: flex;
+        justify-content: center;
+    }
+    .botonManagerInicio {
+        text-decoration: none;
+        color: #1c2636;
+    }
+
+    /*Footer*/
+
+    .footerInicio {
+        display: grid;
+        grid-template-areas: 
+        "redesfooter redesfooter redesfooter redesfooter"
+        "textofooter textofooter textofooter textofooter"
+        "redireccionar redireccionar redireccionar redireccionar"
+        "logofooter logofooter logofooter logofooter"
+        "academialange academialange academialange academialange";
+        grid-template-columns: repeat (4, 25%);
+        grid-template-rows: 50px 50px 100px 150px 50px;
+        background-color: #1c2636;
+    }
+
+    .divRedesSociales {
+        grid-area: redesfooter;
+    }
+    .textoFooter {
+        grid-area: textofooter;
+    }
+    .redireccionarFooterInicio {
+        grid-area: redireccionar;
+    }
+    .logoFooterInicio {
+        grid-area: logofooter;
+    }
+    .divTextoAcademia {
+        grid-area: academialange;
+    }
+
+    /*edicion*/
+
+    .divRedesSociales {
+        padding-top: 10px;
+    }
+    .ulRRSS{
+        display: flex;
+        list-style-type: none;
+        justify-content: center;
+    }
+    .liRRSS {
+        padding: 0px 50px;
+        color: #e3dac9;
+        display: flex;
+        align-items: center;
+
+    }
+    .aRRSS {
+        text-decoration: none;
+    }
+    .textoFooter {
+        color: #e3dac9;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 20px;
+        padding-top: 30px;
+    }
+
+    .ulNavFooterInicio {
+        display: flex;
+        justify-content: center;
+        list-style-type: none;
+    }
+    .navFooterInicio {
+        color: #e3dac9;
+        padding: 0px 30px;
+    }
+    .aNavFooter {
+        color: #e3dac9;
+        text-decoration: none;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        font-size: 18px;
+        padding-top: 30px;
+    }
+
+    .logoFooterInicio {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        padding-bottom: 20px;
+    }
+    .divTextoAcademia {
+        background-color: #1c2636;
+    }
+    .textoAcademiaFooter {
+        color: #e3dac9;
+        font-size: 18px;
+        text-align: center;
+        align-items: flex-start;
+    }
 
 }
