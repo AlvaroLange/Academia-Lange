@@ -319,7 +319,7 @@ html {
         justify-content: center;
     }
     .liRRSS {
-        padding: 0px 50px;
+        padding: 0px 20px;
         color: #e3dac9;
         display: flex;
         align-items: center;
@@ -344,7 +344,7 @@ html {
     }
     .navFooterInicio {
         color: #e3dac9;
-        padding: 0px 30px;
+        padding: 0px 20px;
     }
     .aNavFooter {
         color: #e3dac9;
