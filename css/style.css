@@ -373,3 +373,359 @@ html {
     }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Vista Desktop */
+
+/*Inicio*/
+@media only screen and (min-width: 1024px) {
+    .conteinerPadreInicio {
+        display: grid;
+        grid-template-areas: 
+        "logo logo logo logo logo logo"
+        "nav nav nav nav nav nav"
+        "main main main main main main"
+        "ads ads ads ads ads ads"
+        "ig ig ig ig ig ig"
+        "manager manager manager manager manager manager"
+        "footer footer footer footer footer footer";
+        grid-template-columns: 100%;
+        grid-template-rows: 80px 5px 500px 600px 600px 600px 220px;
+
+    }
+    .headerDesktop {
+        grid-area: logo;
+        display: flex;
+        align-items: center;
+    }
+    .navDesktop {
+        grid-area: nav;
+    }
+    .mainDesktop {
+        grid-area: main;
+    }
+    .facebookDesktop {
+        grid-area: ads;
+    }
+    .igDesktop {
+        grid-area: ig;
+    }
+    .managerDesktop {
+        grid-area: manager;
+    }
+    .footerDesktop {
+        grid-area: footer;
+    }
+
+    /*editar header y nav*/
+
+    .headerDesktop {
+        background-color: #1c2636;
+    }
+    .textoAcademia {
+        color: #e3dac9;
+        font-size: 18px;
+    }
+    .ulInicioNav {
+        display: flex;
+        justify-content: center;
+        list-style-type: none;
+    }
+    .liNav {
+        padding-bottom: 50px;
+        color: #e3dac9;
+        text-decoration: none;
+        font-size: 18px;
+        padding: 0px 20px;
+    }
+    .navDesktop {
+        position: relative;
+        bottom: 50px;
+    }
+
+    /*padding que va a toda la page index*/
+    .padding-body {
+        padding: 30px 50px!important;
+    }
+    /*main*/
+    .mainDesktop {
+        display: grid;
+        grid-template-areas: 
+        "texto texto imagen imagen"
+        "uls uls imagen imagen"
+        "boton boton imagen imagen";
+        grid-template-columns: repeat (2, 50%);
+        grid-template-rows: 150px 150px 50px;
+        padding: 20px 0;
+    }
+    .primerApratado {
+        grid-area: texto;
+        display: flex;
+        align-items: flex-end;
+    }
+    .imagenApartadoInicio {
+        grid-area: imagen;
+    }
+    .ulPrimerApartado {
+        grid-area: uls;
+        padding-top: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .botonInicio {
+        grid-area: boton;
+    }
+
+    /*editar main*/
+    .imgApartadoInicio {
+        max-width: 100%;
+        width: 700px;
+        border: solid 3px #1c2636;
+        border-radius: 5px;
+    }
+    .textoApartadoInicio {
+        font-size: 24px;
+        color: #1c2636;
+        display: flex;
+        text-align:start;
+    }
+    .ulprimerapartado {
+        list-style-type: none;
+    }
+    .liPrimerApartado {
+        color: #1c2636;
+        font-size: 24px;
+        padding: 2px 0;
+    }
+    .botonPrimerApartado {
+        /* <button>*/
+        border: solid 3px #1c2636;
+        border-radius: 10px;
+        display: flex;
+        align-items: flex-start;
+    }
+    .aBotonPrimerApartado {
+        /*a del boton*/
+        color: #1c2636;
+        text-decoration: none;
+        padding: 5px;
+    }
+    /*facebook*/
+    .facebookDesktop {
+        display: grid;
+        grid-template-areas: 
+        "titulo"
+        "imagen"
+        "boton";
+        grid-template-columns: 100%;
+        grid-template-rows: 100px 400px 30px;
+    }
+    .divFacebookInicio {
+        grid-area: titulo;        
+    }
+    .imagenFacebookAds {
+        grid-area: imagen;
+        display: flex;
+        max-width: 100%;
+        justify-content: center;
+    }
+    .botonFacebookAdsInicio {
+        grid-area: boton;
+        display: flex;
+        justify-content: center;
+        color: #1c2636;
+        }
+
+/*edicion*/
+    .tituloFacebookInicio {
+        color: #1c2636;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        font-size: 40px;
+    }
+    .imgFacebookAds {
+        max-width: 100%;
+    }
+
+        /*instagram*/
+        .igDesktop {
+            display: grid;
+            grid-template-areas: 
+            "tituloig"
+            "imagenig"
+            "botonig";
+            grid-template-columns: 100%;
+            grid-template-rows: 100px 400px 30px;
+        }
+        .divInstagramInicio {
+            grid-area: tituloig;        
+        }
+        .imagenInstagram {
+            grid-area: imagenig;
+            display: flex;
+            max-width: 100%;
+            justify-content: center;
+        }
+        .botonIG {
+            grid-area: botonig;
+            display: flex;
+            justify-content: center;
+            color: #1c2636;
+            }
+    
+    /*edicion*/ 
+        .tituloInstagramInicio {
+            color: #1c2636;
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            font-size: 40px;
+        }
+        .imgInstagram {
+            max-width: 100%;
+        }
+
+            /*COMMUNITY MANAGER*/  
+            .managerDesktop {
+                display: grid;
+                grid-template-areas: 
+                "titulocm"
+                "imagencm"
+                "botoncm";
+                grid-template-columns: 100%;
+                grid-template-rows: 100px 400px 30px;
+                }
+                .divCommunityInicio {
+                    grid-area: titulocm;        
+                }
+                .imagenCommunity {
+                    grid-area: imagencm;
+                    display: flex;
+                    max-width: 100%;
+                    justify-content: center;
+                }
+                .botonCommunity {
+                    grid-area: botoncm;
+                    display: flex;
+                    justify-content: center;
+                    color: #1c2636;
+                    } 
+            
+            /*edicion*/ 
+                .tituloCommunityInicio {
+                    color: #1c2636;
+                    display: flex;
+                    text-align: center;
+                    justify-content: center;
+                    font-size: 40px;
+                }
+                .imgCommunity {
+                    max-width: 100%;
+                }
+    
+    /*footer desktop*/
+
+    .footerDesktop {
+        display: flex;
+        background-color: #1c2636;
+        justify-content: space-around;
+    }
+    .divRedesSociales {
+        display: flex;
+        flex-direction: column;
+        padding: 0px 30px;
+    }
+    .textoFooter {
+        display: flex;
+        flex-direction: column;
+        padding: 0px 30px;
+    }
+    .redireccionarFooterInicio {
+        display: flex;
+        flex-direction: column;
+        padding: 0 30px;
+    }
+    .logoFooterInicio {
+        display: flex;
+        flex-direction: column;
+        padding: 0 30px;
+        justify-content: center;
+    }
+    .divTextoAcademia {
+        display: flex;
+        flex-direction: column;
+        padding: 0 30px;
+        justify-content: center;
+    }
+/*rrss*/
+    .ulRRSS {
+        list-style-type: none;
+        padding: 20px 0;
+    }
+    .aRRSS {
+        text-decoration: none;
+        color: #e3dac9;
+        padding: 10px;
+        display: flex;
+        text-align: center;
+        font-size: 18px;
+    }
+    .liRRSS {
+        display: flex;
+        align-items: center;
+    }
+
+    /*redireccionar*/
+    .textofooter {
+        color: #e3dac9;
+        font-size: 18px;
+        display: flex;
+        padding-top: 30px;
+        padding-left: 50px;
+    }
+
+    .ulNavFooterInicio {
+        display: flex;
+        flex-direction: column;
+        padding-top: 15px;
+        list-style-type: none;
+    }
+    .navFooterInicio {
+    padding: 8px 0px;
+    }
+    .aNavFooter {
+        text-decoration: none;
+        color: #e3dac9;
+        font-size: 18px;
+    }
+    .textoAcademiaFooter {
+        color: #e3dac9;
+        font-size: 18px;
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+    }
+
+}
