@@ -131,6 +131,8 @@ footer {
     }
     .primerApartado {
         grid-area: textoinicio;
+        display: flex;
+        align-items: center;
     }
     .ulPrimerApartado {
         grid-area: ulinicio;
@@ -497,7 +499,7 @@ footer {
     .primerApratado {
         grid-area: texto;
         display: flex;
-        align-items: flex-end;
+        align-items: center;
     }
     .imagenApartadoInicio {
         grid-area: imagen;
