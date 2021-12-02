@@ -151,4 +151,10 @@ body {
         color: 
         #1c2636;
     }
+
+    /*Inicio*/
+    .divContenidosInicio {
+        display: flex;
+        margin: 20px 0px;
+    }
 }
