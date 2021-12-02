@@ -105,6 +105,16 @@ body {
 
 /*desktop*/
 @media only screen and (min-width:1024px) {
+    
+    /*nav*/
+    .backgroundNav {
+        background-color: #1c2636;
+    }
+    .colorNav {
+        color: white !important;
+    }
+    
+    
     /*academia*/
     .videoaf {
         border: solid 3px #1c2636;
