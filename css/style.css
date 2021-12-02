@@ -2,748 +2,153 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/*variables*/
+:root {
+--azul-af :#1c2636;
+--beige-af :#e3dac9;
+}
+
+
+
 body {
-    background-image: radial-gradient( white, #e3dac9) !important;
-}
-footer {
-    background-image: radial-gradient(#1c2636, #45669c );
+    background-color: white;
 }
 
-.imgRRSS {
-    width: 25px;
-    height: auto;
-    transition: all 2s;
-}
-.imgRRSS:hover {
-    transform: translateX(-20px);
+.alvarofrancoimg {
+    max-width: 100%;
+    border: solid 3px #1c2636;
+    border-radius: 10px;
 }
 
-.imgRRSS {
-    transform: scaleY(-0.5em);
+.marketingacademia {
+    max-width: 100%;
+}
+.marketinginicioDos {
+    max-width: 100%;
+}
+
+.videoaf {
+    max-width: 100%;
 }
 
 
-/* Vista Mobile */
-/* Inicio */
-
-/*Apertura de @media y grid padre*/
-
-@media only screen and (min-width: 0px) and (max-width: 768px) {
-    .conteinerPadreInicio {
-        display: grid;
-        grid-template-areas: 
-        "header"
-        "nav"
-        "main"
-        "facebook"
-        "instagram"
-        "community"
-        "footer";
-        grid-template-columns: 100%;
-        grid-template-rows: 100px 50px 550px 600px 600px 600px 350px;
+/*mobile*/
+@media only screen and (min-width:0px) and (max-width: 768px){
+    /*Main*/
+    .imagenalvarofranco {
+        margin: 50px 0px;
     }
-    /*grid areas*/
-
-    .headerIncio {
-        grid-area: header;
+    .parrafoInicio {
+    color: #1c2636;
+    font-size: 20px !important;
+    padding-top: 30px;
+    text-align: start;
     }
-    .navInicio {
-        grid-area: nav;
-    }
-    .mainInicio {
-        grid-area: main;
-    }
-    .facebookInicio {
-        grid-area: facebook;
-    }
-    .instagramInicio {
-        grid-area: instagram;
-    }
-    .communityInicio {
-        grid-area: community;
-    }
-    .footerInicio {
-        grid-area: footer;
-    }
-
-    /*fin grid areas*/
-    /*apertura de laburo con nada una*/
-    /*header*/
-
-    .headerInicio {
-        display: flex;
-        flex-direction: column;
-        background-color: #1c2636;
-    }
-    .logoInicio {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .textoAcademia {
-        display: flex;
-        text-align: center;
-        justify-content: center;
-        font-size: 20px;
-        color: #e3dac9;
-    }
-    /*NAV*/
-    .navInicio {
-        background-color: #1c2636;
-    }
-    .ulInicioNav {
-        display: flex;
-        text-decoration: none;
-        align-content: center;
-        justify-content: center;
-        align-items: center;
-    }
-    .liNav {
-        display: flex;
-        flex-direction: column;
+    .liInicio {
         list-style-type: none;
-        text-decoration: none;
-        justify-content: center;
-        padding: 7px 10px;
-        font-size: 17px;
-        color: #e3dac9;
-    }
-
-    /*main*/
-
-    .mainInicio {
-        margin: 20px;
-        display: grid;
-        grid-template-areas: 
-        "imageninicio"
-        "textoinicio"
-        "ulinicio"
-        "botoninicio";
-        grid-template-columns: 100%;
-        grid-template-rows: 250px 125px 75px 50px;
-        justify-items: center;
-        align-items: center;
-        justify-content: center;
-        align-content: space-between;
-    }
-    .imagenApartadoInicio {
-        grid-area: imageninicio;
-    }
-    .primerApartado {
-        grid-area: textoinicio;
-        display: flex;
-        align-items: center;
-    }
-    .ulPrimerApartado {
-        grid-area: ulinicio;
+        text-align: start;
+        color: #1c2636;
+        font-size: 18px;
+        padding-bottom: 2px;
     }
     .botonInicio {
-        grid-area: botoninicio;
-    }
-    /*edicion apartado*/
-    .imgApartadoInicio {
-        width: 450px;
-        border: solid 3px #1c2636;
-        border-radius: 10px;
-    }
-    .textoApartadoInicio {
-        color: #1c2636;
-        text-align: center;
-        font-size: 18px;
-    }
-    .ulprimerapartado {
-        list-style-type: none;
-        margin-top: 10px;
-    }
-    .liPrimerApartado {
-        color: #1c2636;
-        font-size: 18px;
-        padding: 2px 0px;
-        text-align: center;
-    }
-    .botonPrimerApartado {
-        background-color: white;
-        border: solid 3px #1c2636;
-        border-radius: 10px;
+        display: flex;
         padding: 3px;
+        margin-top: 5px;
+        border: solid 3px #1c2636;
+        border-radius: 16px;
     }
-    .aBotonPrimerApartado {
-        text-decoration: none;
+    .aBotonInicio {
+        color: 
+        #1c2636;
+    }
+    /*pregunta*/
+    .tituloApertura {
         color: #1c2636;
+        font-size: 40px;
+        text-align: center;
+        padding: 20px;
+    }
+    /*footer*/
+    .footerContainer {
+        background-color: #e3dac9;
+    }
+    .textoFooterAcademia {
+        display: flex;
+        color: #1c2636;
+        font-size: 18px;
+    }
+    .liRRSS {
+        color: #1c2636;
+        list-style-type: none;
+        padding: 4px;
+        text-align: center;
+    }
+    .redireccionarFooter {
+        color: #1c2636;
+        font-size: 18px;
+        padding: 7px;
+    }
+    .divRedireccionar {
+        display: flex;
+        justify-content: center;
     }
 
-    /*Facebook e Instagram Ads*/
+    /*Academia*/
+    .divContenidosAcademia {
+        display: flex;
+        margin: 20px 0px;
+    }
+}
 
-    .facebookInicio {
-        padding: 0px 20px;
+
+
+/*desktop*/
+@media only screen and (min-width:1024px) {
+    /*academia*/
+    .videoaf {
+        border: solid 3px #1c2636;
+    }
+    .divContenidosAcademia {
+        display: flex;
+        margin: 20px 0px;
+    }
+
+    /*footer*/
+    .footerContainer {
+        background-color: #e3dac9;
         margin-top: 50px;
     }
-    .divFacebookInicio {
+    .textoFooterAcademia {
         display: flex;
-        justify-content: center;
-        background-color: white;
-        border: solid 3px #1c2636;
-        text-align: center;
-        padding: 0px 5px;
-    }
-    .tituloFacebookInicio {
         color: #1c2636;
-        font-size: 35px;
-    }
-    .imgFacebookAds {
-        width: 655px;
-        margin: 10px 0px;
-        border: solid 3px #1c2636;
-        max-width: 100%;
-    }
-    .imagenFacebookAds {
-        display: flex;
-        justify-content: center;
-    }
-    .botonFacebookAds {
-        border: solid 3px #1c2636;
-        padding: 5px;
-        border-radius: 10px;
-    }
-    .botonFacebookAdsInicio {
-        display: flex;
-        justify-content: center;
-    }
-    .botonFacebook {
-        text-decoration: none;
-        color: #1c2636;
-    }
-
-    /*Instagram para negocios*/
-    .instagramInicio {
-        padding: 0px 20px;
-    }
-    .divInstagramInicio {
-        display: flex;
-        justify-content: center;
-        background-color: white;
-        border: solid 3px #1c2636;
-        text-align: center;
-        padding: 0px 5px;
-    }
-    .tituloInstagramInicio {
-        color: #1c2636;
-        font-size: 35px;
-    }
-
-    .imgInstagramInicio {
-        width: 655px;
-        margin: 10px 0px;
-        border: solid 3px #1c2636;
-        max-width: 100%;
-    }
-    .imagenInstagram {
-        display: flex;
-        justify-content: center;
-    }
-    .botonInstagram {
-        border: solid 3px #1c2636;
-        padding: 5px;
-        border-radius: 10px;
-    }
-    .botonIG {
-        display: flex;
-        justify-content: center;
-    }
-    .botonInstagramInicio {
-        text-decoration: none;
-        color: #1c2636;
-    }
-    /*Community Manager*/
-
-    .communityInicio {
-        padding: 0px 20px;
-    }
-    .divCommunityInicio {
-        display: flex;
-        justify-content: center;
-        background-color: white;
-        border: solid 3px #1c2636;
-        text-align: center;
-        padding: 0px 5px;
-    }
-    .tituloCommunityInicio {
-        color: #1c2636;
-        font-size: 35px;
-    }
-    .imgCommunityInicio {
-        width: 655px;
-        margin: 10px 0px;
-        border: solid 3px #1c2636;
-        max-width: 100%;
-    }
-    .imagenCommunity{
-        display: flex;
-        justify-content: center;
-    }
-    .botonManager{
-        border: solid 3px #1c2636;
-        padding: 5px;
-        border-radius: 10px;
-    }
-    .botonCommunity{
-        display: flex;
-        justify-content: center;
-    }
-    .botonManagerInicio {
-        text-decoration: none;
-        color: #1c2636;
-    }
-
-    /*Footer*/
-
-    .footerInicio {
-        display: grid;
-        grid-template-areas: 
-        "redesfooter redesfooter redesfooter redesfooter"
-        "textofooter textofooter textofooter textofooter"
-        "redireccionar redireccionar redireccionar redireccionar"
-        "logofooter logofooter logofooter logofooter"
-        "academialange academialange academialange academialange";
-        grid-template-columns: repeat (4, 25%);
-        grid-template-rows: 50px 50px 100px 150px 50px;
-        background-color: #1c2636;
-    }
-
-    .divRedesSociales {
-        grid-area: redesfooter;
-    }
-    .textoFooter {
-        grid-area: textofooter;
-    }
-    .redireccionarFooterInicio {
-        grid-area: redireccionar;
-    }
-    .logoFooterInicio {
-        grid-area: logofooter;
-    }
-    .divTextoAcademia {
-        grid-area: academialange;
-    }
-
-    /*edicion*/
-
-    .divRedesSociales {
-        padding-top: 10px;
-    }
-    .ulRRSS{
-        display: flex;
-        list-style-type: none;
-        justify-content: center;
+        font-size: 18px;
     }
     .liRRSS {
-        padding: 0px 20px;
-        color: #e3dac9;
-        display: flex;
-        align-items: center;
-
-    }
-    .aRRSS {
-        text-decoration: none;
-    }
-    .textoFooter {
-        color: #e3dac9;
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        font-size: 20px;
-        padding-top: 30px;
-    }
-
-    .ulNavFooterInicio {
-        display: flex;
-        justify-content: center;
+        color: #1c2636;
         list-style-type: none;
-    }
-    .navFooterInicio {
-        color: #e3dac9;
-        padding: 0px 20px;
-    }
-    .aNavFooter {
-        color: #e3dac9;
-        text-decoration: none;
-        display: flex;
+        padding: 4px;
         text-align: center;
-        justify-content: center;
+    }
+    .redireccionarFooter {
+        color: #1c2636;
         font-size: 18px;
-        padding-top: 30px;
+        padding: 7px;
     }
-
-    .logoFooterInicio {
-        display: flex;
-        justify-content: center;
-        align-items: flex-end;
-        padding-bottom: 20px;
-    }
-    .divTextoAcademia {
-        background-color: #1c2636;
-    }
-    .textoAcademiaFooter {
-        color: #e3dac9;
-        font-size: 18px;
-        text-align: center;
-        align-items: flex-start;
-    }
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Vista Desktop */
-
-/*Inicio*/
-@media only screen and (min-width: 1024px) {
-    .conteinerPadreInicio {
-        display: grid;
-        grid-template-areas: 
-        "logo logo logo logo logo logo"
-        "nav nav nav nav nav nav"
-        "main main main main main main"
-        "ads ads ads ads ads ads"
-        "ig ig ig ig ig ig"
-        "manager manager manager manager manager manager"
-        "footer footer footer footer footer footer";
-        grid-template-columns: 100%;
-        grid-template-rows: 80px 5px 500px 600px 600px 600px 220px;
-
-    }
-    .headerDesktop {
-        grid-area: logo;
-        display: flex;
-        align-items: center;
-    }
-    .navDesktop {
-        grid-area: nav;
-    }
-    .mainDesktop {
-        grid-area: main;
-    }
-    .facebookDesktop {
-        grid-area: ads;
-    }
-    .igDesktop {
-        grid-area: ig;
-    }
-    .managerDesktop {
-        grid-area: manager;
-    }
-    .footerDesktop {
-        grid-area: footer;
-    }
-
-    /*editar header y nav*/
-
-    .headerDesktop {
-        background-color: #1c2636;
-    }
-    .textoAcademia {
-        color: #e3dac9;
-        font-size: 18px;
-    }
-    .ulInicioNav {
+    .divRedireccionar {
         display: flex;
         justify-content: center;
-        list-style-type: none;
     }
-    .liNav {
-        padding-bottom: 50px;
-        color: #e3dac9;
-        text-decoration: none;
-        font-size: 18px;
-        padding: 0px 20px;
-    }
-    .navDesktop {
-        position: relative;
-        bottom: 50px;
-    }
-
-    /*padding que va a toda la page index*/
-    .padding-body {
-        padding: 30px 50px!important;
-    }
-    /*main*/
-    .mainDesktop {
-        display: grid;
-        grid-template-areas: 
-        "texto texto imagen imagen"
-        "uls uls imagen imagen"
-        "boton boton imagen imagen";
-        grid-template-columns: repeat (2, 50%);
-        grid-template-rows: 150px 150px 50px;
-        padding: 20px 0;
-    }
-    .primerApratado {
-        grid-area: texto;
-        display: flex;
-        align-items: center;
-    }
-    .imagenApartadoInicio {
-        grid-area: imagen;
-    }
-    .ulPrimerApartado {
-        grid-area: uls;
-        padding-top: 10px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
+    /*botones*/
     .botonInicio {
-        grid-area: boton;
-    }
-
-    /*editar main*/
-    .imgApartadoInicio {
-        max-width: 100%;
-        width: 700px;
+        display: flex;
+        padding: 3px;
+        margin-top: 5px;
         border: solid 3px #1c2636;
-        border-radius: 5px;
+        border-radius: 16px;
     }
-    .textoApartadoInicio {
-        font-size: 24px;
-        color: #1c2636;
-        display: flex;
-        text-align:start;
+    .aBotonInicio {
+        color: 
+        #1c2636;
     }
-    .ulprimerapartado {
-        list-style-type: none;
-    }
-    .liPrimerApartado {
-        color: #1c2636;
-        font-size: 24px;
-        padding: 2px 0;
-    }
-    .botonPrimerApartado {
-        /* <button>*/
-        border: solid 3px #1c2636;
-        border-radius: 10px;
-        display: flex;
-        align-items: flex-start;
-    }
-    .aBotonPrimerApartado {
-        /*a del boton*/
-        color: #1c2636;
-        text-decoration: none;
-        padding: 5px;
-    }
-    /*facebook*/
-    .facebookDesktop {
-        display: grid;
-        grid-template-areas: 
-        "titulo"
-        "imagen"
-        "boton";
-        grid-template-columns: 100%;
-        grid-template-rows: 100px 400px 30px;
-    }
-    .divFacebookInicio {
-        grid-area: titulo;        
-    }
-    .imagenFacebookAds {
-        grid-area: imagen;
-        display: flex;
-        max-width: 100%;
-        justify-content: center;
-    }
-    .botonFacebookAdsInicio {
-        grid-area: boton;
-        display: flex;
-        justify-content: center;
-        color: #1c2636;
-        }
-
-/*edicion*/
-    .tituloFacebookInicio {
-        color: #1c2636;
-        display: flex;
-        text-align: center;
-        justify-content: center;
-        font-size: 40px;
-    }
-    .imgFacebookAds {
-        max-width: 100%;
-    }
-
-        /*instagram*/
-        .igDesktop {
-            display: grid;
-            grid-template-areas: 
-            "tituloig"
-            "imagenig"
-            "botonig";
-            grid-template-columns: 100%;
-            grid-template-rows: 100px 400px 30px;
-        }
-        .divInstagramInicio {
-            grid-area: tituloig;        
-        }
-        .imagenInstagram {
-            grid-area: imagenig;
-            display: flex;
-            max-width: 100%;
-            justify-content: center;
-        }
-        .botonIG {
-            grid-area: botonig;
-            display: flex;
-            justify-content: center;
-            color: #1c2636;
-            }
-    
-    /*edicion*/ 
-        .tituloInstagramInicio {
-            color: #1c2636;
-            display: flex;
-            text-align: center;
-            justify-content: center;
-            font-size: 40px;
-        }
-        .imgInstagram {
-            max-width: 100%;
-        }
-
-            /*COMMUNITY MANAGER*/  
-            .managerDesktop {
-                display: grid;
-                grid-template-areas: 
-                "titulocm"
-                "imagencm"
-                "botoncm";
-                grid-template-columns: 100%;
-                grid-template-rows: 100px 400px 30px;
-                }
-                .divCommunityInicio {
-                    grid-area: titulocm;        
-                }
-                .imagenCommunity {
-                    grid-area: imagencm;
-                    display: flex;
-                    max-width: 100%;
-                    justify-content: center;
-                }
-                .botonCommunity {
-                    grid-area: botoncm;
-                    display: flex;
-                    justify-content: center;
-                    color: #1c2636;
-                    } 
-            
-            /*edicion*/ 
-                .tituloCommunityInicio {
-                    color: #1c2636;
-                    display: flex;
-                    text-align: center;
-                    justify-content: center;
-                    font-size: 40px;
-                }
-                .imgCommunity {
-                    max-width: 100%;
-                }
-    
-    /*footer desktop*/
-
-    .footerDesktop {
-        display: flex;
-        background-color: #1c2636;
-        justify-content: space-around;
-    }
-    .divRedesSociales {
-        display: flex;
-        flex-direction: column;
-        padding: 0px 30px;
-    }
-    .textoFooter {
-        display: flex;
-        flex-direction: column;
-        padding: 0px 30px;
-    }
-    .redireccionarFooterInicio {
-        display: flex;
-        flex-direction: column;
-        padding: 0 30px;
-    }
-    .logoFooterInicio {
-        display: flex;
-        flex-direction: column;
-        padding: 0 30px;
-        justify-content: center;
-    }
-    .divTextoAcademia {
-        display: flex;
-        flex-direction: column;
-        padding: 0 30px;
-        justify-content: center;
-    }
-/*rrss*/
-    .ulRRSS {
-        list-style-type: none;
-        padding: 20px 0;
-    }
-    .aRRSS {
-        text-decoration: none;
-        color: #e3dac9;
-        padding: 10px;
-        display: flex;
-        text-align: center;
-        font-size: 18px;
-    }
-    .liRRSS {
-        display: flex;
-        align-items: center;
-    }
-
-    /*redireccionar*/
-    .textofooter {
-        color: #e3dac9;
-        font-size: 18px;
-        display: flex;
-        padding-top: 30px;
-        padding-left: 50px;
-    }
-
-    .ulNavFooterInicio {
-        display: flex;
-        flex-direction: column;
-        padding-top: 15px;
-        list-style-type: none;
-    }
-    .navFooterInicio {
-    padding: 8px 0px;
-    }
-    .aNavFooter {
-        text-decoration: none;
-        color: #e3dac9;
-        font-size: 18px;
-    }
-    .textoAcademiaFooter {
-        color: #e3dac9;
-        font-size: 18px;
-        display: flex;
-        flex-direction: column;
-        text-align: start;
-    }
-
 }
