@@ -12,6 +12,8 @@
 
 body {
     background-color: white;
+    display: flex;
+    flex-direction: column;
 }
 
 .alvarofrancoimg {
@@ -32,11 +34,20 @@ body {
 }
 
 
+
 /*mobile*/
 @media only screen and (min-width:0px) and (max-width: 768px){
     /*Main*/
     .imagenalvarofranco {
         margin: 50px 0px;
+    }
+    .divContenidosInicio {
+        display: flex;
+        max-width: 100%;
+    }
+    .divContenidosPregunta {
+        display: flex;
+        max-width: 100%;
     }
     .parrafoInicio {
     color: #1c2636;
@@ -62,21 +73,34 @@ body {
         color: 
         #1c2636;
     }
+    /*carrusel*/
+    .carousel-item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .carruselInicio {
+        display: flex;
+        flex-direction: column;
+    }
     /*pregunta*/
     .tituloApertura {
+        display: inline-block;
         color: #1c2636;
-        font-size: 40px;
-        text-align: center;
-        padding: 20px;
+        font-size: 30px;
+        text-align: start;
+        padding: 20px 0px;
     }
     /*footer*/
     .footerContainer {
         background-color: #e3dac9;
+        display: flex;
     }
     .textoFooterAcademia {
         display: flex;
         color: #1c2636;
         font-size: 18px;
+        text-align: center;
     }
     .liRRSS {
         color: #1c2636;
@@ -92,6 +116,11 @@ body {
     .divRedireccionar {
         display: flex;
         justify-content: center;
+    }
+    .logoFooter {
+        align-items: center;
+        display: flex;
+        padding-bottom: 20px;
     }
 
     /*Academia*/
@@ -166,6 +195,12 @@ body {
     .divContenidosInicio {
         display: flex;
         margin: 20px 0px;
+        max-width: 100%;
+    }
+    .divContenidosPregunta {
+        display: flex;
+        max-width: 100%;
+        margin: 25px 0px;
     }
     .tituloApertura {
         color: var(--azul-af);
