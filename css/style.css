@@ -91,10 +91,18 @@ body {
         text-align: start;
         padding: 20px 0px;
     }
+    .aperturaInicio {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 10px 20px;
+    }
     /*footer*/
     .footerContainer {
         background-color: #e3dac9;
         display: flex;
+        padding-bottom: 60px;
     }
     .textoFooterAcademia {
         display: flex;
@@ -105,17 +113,21 @@ body {
     .liRRSS {
         color: #1c2636;
         list-style-type: none;
-        padding: 4px;
+        padding: 10px;
         text-align: center;
+    }
+    .divRRSS {
+        padding-top: 30px;
     }
     .redireccionarFooter {
         color: #1c2636;
         font-size: 18px;
-        padding: 7px;
+        padding: 15px;
     }
     .divRedireccionar {
         display: flex;
         justify-content: center;
+        padding-top: 50px;
     }
     .logoFooter {
         align-items: center;
