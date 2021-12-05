@@ -140,13 +140,16 @@ body {
         display: flex;
         margin: 20px 0px;
     }
+    .ultimoDivAcademia {
+        margin: 40px 0px;
+    }
 }
 
 
 
 /*desktop*/
 @media only screen and (min-width:1024px) {
-    
+    /*academia*/
     /*nav*/
     .backgroundNav {
         background-color: #1c2636;
@@ -162,7 +165,12 @@ body {
     }
     .divContenidosAcademia {
         display: flex;
-        margin: 20px 0px;
+        margin: 20px 200px;
+    }
+    .sectionAcademia {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
     /*footer*/
@@ -208,17 +216,35 @@ body {
         display: flex;
         margin: 20px 0px;
         max-width: 100%;
+        padding: 20px 200px;
     }
     .divContenidosPregunta {
         display: flex;
         max-width: 100%;
         margin: 25px 0px;
     }
+    .divCarruselInicio {
+        display: flex;
+        max-width: 100%;
+    }
     .tituloApertura {
         color: var(--azul-af);
         font-size: 30px;
         margin: 200px 0px 0px 20px;
         text-align: center;
+    }
+    .parrafoInicio {
+        font-size: 25px;
+    }
+    .liInicio {
+        font-size: 25px;
+        list-style-type: none;
+    }
+    .aperturaInicio {
+        font-size: 30px;
+    }
+    .botonInicio {
+        font-size: 30xpx;
     }
     .imagcarrusel {
         max-width: 100%;
