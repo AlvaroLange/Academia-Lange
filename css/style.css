@@ -143,6 +143,63 @@ body {
     .ultimoDivAcademia {
         margin: 40px 0px;
     }
+
+
+
+    /*blog*/
+    .imagenesBlog {
+        display: flex;
+        max-width: 100%;
+    }
+    .articulosblog {
+        margin: 20px 50px;
+        border: solid 7px #1c2636 !important;
+        border-radius: 10px !important;
+    }
+    .divTituloBlog {
+        color: #1c2636;
+        text-align: center;
+        padding-top: 50px;
+    }
+    .divParrafoBlog {
+        color: #1c2636;
+        display: contents;
+        text-align: center;
+    }
+    .parrafoBlog {
+        text-align: center;
+        padding:10px 100px;
+        color: #1c2636;
+        font-size: 20px;
+    }
+    /*news letter*/
+    .formulario__newsletter {
+        background-color: #1c2636;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        margin: 50px;
+        border: solid 4px #e3dac9;
+        border-radius: 10px;
+    }
+    .titulo__newsletter {
+        color: #e3dac9;
+        font-size: 22px;
+        padding: 2px;
+    }
+    .label__nombre {
+        color: #e3dac9;
+    }
+    .label__apellido{
+        color: #e3dac9;
+    }
+    .label__email {
+        color: #e3dac9;
+    }
+    .terminos__condiciones {
+        color: #e3dac9;
+    }
+
 }
 
 
@@ -251,5 +308,69 @@ body {
     }
     .carousel-item {
         padding: 0px 497px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    /*blog*/
+    .imagenesBlog {
+        display: flex;
+        max-width: 100%;
+    }
+    .articulosblog {
+        margin: 20px 50px;
+        border: solid 7px #1c2636 !important;
+        border-radius: 10px !important;
+    }
+    .divTituloBlog {
+        color: #1c2636;
+        text-align: center;
+        padding-top: 50px;
+    }
+    .divParrafoBlog {
+        color: #1c2636;
+        display: contents;
+        text-align: center;
+    }
+    .parrafoBlog {
+        text-align: center;
+        padding:10px 100px;
+        color: #1c2636;
+        font-size: 20px;
+    }
+    /*news letter*/
+    .formulario__newsletter {
+        background-color: #1c2636;
+        display: flex;
+        flex-direction: column;
+        margin: 50px 300px;
+        border: solid 4px #e3dac9;
+        border-radius: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+    .titulo__newsletter {
+        color: #e3dac9;
+    }
+    .label__nombre {
+        color: #e3dac9;
+    }
+    .label__apellido{
+        color: #e3dac9;
+    }
+    .label__email {
+        color: #e3dac9;
+    }
+    .terminos__condiciones {
+        color: #e3dac9;
     }
 }
