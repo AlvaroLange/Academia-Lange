@@ -200,6 +200,66 @@ body {
         color: #e3dac9;
     }
 
+
+
+        /*cursos*/
+        .gridContainerCursos {
+        display: grid;
+        grid-template-areas: 
+        "ig" 
+        "meli"
+        "copy" 
+        "manager"
+        "email" 
+        "ads";
+        grid-template-rows: repeat(4, 440px);
+        grid-template-columns: 100%;
+        margin: 50px 50px;
+    }
+
+    .instagram {
+        grid-area: ig;
+        margin: 20px;
+        border: solid 3px #1c2636;
+        border-radius: 10px;
+        padding: 30px;
+    }
+    .mercadoLibre {
+        grid-area: meli;
+        margin: 20px;
+        border: solid 3px #1c2636 ;
+        border-radius: 10px;
+        padding: 30px;
+    }
+    .copyWriting {
+        grid-area: copy;
+        margin: 20px;
+        border: solid 3px #1c2636 ;
+        border-radius: 10px;
+        padding: 30px;
+    }
+    .community {
+        grid-area: manager;
+        margin: 20px;
+        border: solid 3px #1c2636 ;
+        border-radius: 10px;
+        padding: 30px;
+    }
+    .emailMarketing {
+        grid-area: email;
+        margin: 20px;
+        border: solid 3px #1c2636 ;
+        border-radius: 10px;
+        padding: 30px;
+    }
+    .facebookAds {
+        grid-area: ads;
+        margin: 20px;
+        border: solid 3px #1c2636 ;
+        border-radius: 10px;
+        padding: 30px;
+    }
+
 }
 
 
@@ -372,5 +432,64 @@ body {
     }
     .terminos__condiciones {
         color: #e3dac9;
+    }
+
+
+
+
+
+    /*cursos*/
+    .gridContainerCursos {
+        display: grid;
+        grid-template-areas: 
+        "ig meli"
+        "copy manager"
+        "email ads";
+        grid-template-rows: 350px 350px 350px;
+        grid-template-columns: 50% 50%;
+        margin: 50px 70px;
+    }
+
+    .instagram {
+        grid-area: ig;
+        margin: 20px;
+        border: solid 3px #1c2636 ;
+        border-radius: 10px;
+        padding: 30px;
+    }
+    .mercadoLibre {
+        grid-area: meli;
+        margin: 20px;
+        border: solid 3px #1c2636 ;
+        border-radius: 10px;
+        padding: 30px;
+    }
+    .copyWriting {
+        grid-area: copy;
+        margin: 20px;
+        border: solid 3px #1c2636 ;
+        border-radius: 10px;
+        padding: 30px;
+    }
+    .community {
+        grid-area: manager;
+        margin: 20px;
+        border: solid 3px #1c2636 ;
+        border-radius: 10px;
+        padding: 30px;
+    }
+    .emailMarketing {
+        grid-area: email;
+        margin: 20px;
+        border: solid 3px #1c2636 ;
+        border-radius: 10px;
+        padding: 30px;
+    }
+    .facebookAds {
+        grid-area: ads;
+        margin: 20px;
+        border: solid 3px #1c2636 ;
+        border-radius: 10px;
+        padding: 30px;
     }
 }
