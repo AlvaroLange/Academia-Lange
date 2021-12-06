@@ -260,6 +260,57 @@ body {
         padding: 30px;
     }
 
+
+    /*planes*/
+    .apartadoPlanes {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 20px 0px;
+        align-items: center;
+    }
+    .titulosApartado {
+        font-size: 20px;
+    }
+    .parrafoApartado {
+        font-size: 14px;
+        text-align: center;
+        padding: 0px 40px;
+    }
+    /*membresias*/
+    .gridContainerPlanes {
+        display: grid;
+        grid-template-areas: 
+        "mensual" 
+        "anual";
+        grid-template-columns: 100%;
+        grid-template-rows: 550px 550px ;
+        justify-content: center;
+    }
+    .membresiaMensual {
+        grid-area: mensual;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: solid 3px #1c2636;
+        border-radius: 10px;
+        justify-content: center;
+        margin: 90px;
+        }
+    .membresiaAnual {
+        grid-area: anual;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: solid 3px #1c2636;
+        border-radius: 10px;
+        justify-content: center;
+        margin: 90px;
+    }
+    .tituloMembresia {
+        font-size: 30px;
+    }
+
 }
 
 
@@ -491,5 +542,56 @@ body {
         border: solid 3px #1c2636 ;
         border-radius: 10px;
         padding: 30px;
+    }
+
+
+
+    /*planes*/
+    .apartadoPlanes {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 50px 0px;
+        align-items: center;
+    }
+    .titulosApartado {
+        font-size: 20px;
+    }
+    .parrafoApartado {
+        font-size: 14px;
+        text-align: center;
+        padding: 0px 40px;
+    }
+    /*membresias*/
+    .gridContainerPlanes {
+        display: grid;
+        grid-template-areas: 
+        "mensual anual";
+        grid-template-columns: 40% 40%;
+        grid-template-rows: 390px ;
+        justify-content: center;
+    }
+    .membresiaMensual {
+        grid-area: mensual;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: solid 3px #1c2636;
+        border-radius: 10px;
+        justify-content: center;
+        margin: 23px;
+    }
+    .membresiaAnual {
+        grid-area: anual;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: solid 3px #1c2636;
+        border-radius: 10px;
+        justify-content: center;
+        margin: 23px;
+    }
+    .tituloMembresia {
+        font-size: 26px;
     }
 }
