@@ -1,1 +1,44 @@
 @import "colores";
+
+@media only screen and (min-width: 1023px) {
+    footer {
+        background-color: $crema;
+    }
+    .redireccionarFooter {
+        color: $azulaf !important;
+        font-size: 20px;
+        margin: 0px 20px;
+    }
+    .textoFooterAcademia {
+        color: $azulaf;
+        font-size: 20px;
+    }
+    .aRRSS {
+        color: $azulaf;
+        list-style-type: none;
+        font-size: 20px;
+        padding: 1px 0px;
+    }
+}
+
+@media only screen and (min-width: 100px) and (max-width: 768px) {
+    footer {
+        background-color: $crema;
+        display: flex;
+    }
+    .redireccionarFooter {
+        color: $azulaf !important;
+        font-size: 20px;
+        margin: 30px 10px;
+    }
+    .textoFooterAcademia {
+        color: $azulaf;
+        font-size: 20px;
+    }
+    .aRRSS {
+        color: $azulaf;
+        list-style-type: none;
+        font-size: 20px;
+        padding: 1px 0px;
+    }
+}

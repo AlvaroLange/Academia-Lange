@@ -1,3 +1,52 @@
 h1 {
   font-size: 30px;
   color: #1c2636; }
+
+img {
+  max-width: 100%; }
+
+@media only screen and (min-width: 1023px) {
+  nav {
+    background-color: #1c2636; }
+  .colorNav {
+    color: #e3dac9 !important;
+    font-size: 20px; } }
+
+@media only screen and (min-width: 100px) and (max-width: 768px) {
+  nav {
+    background-color: white; }
+  .colorNav {
+    color: #1c2636 !important; } }
+
+@media only screen and (min-width: 1023px) {
+  footer {
+    background-color: #e3dac9; }
+  .redireccionarFooter {
+    color: #1c2636 !important;
+    font-size: 20px;
+    margin: 0px 20px; }
+  .textoFooterAcademia {
+    color: #1c2636;
+    font-size: 20px; }
+  .aRRSS {
+    color: #1c2636;
+    list-style-type: none;
+    font-size: 20px;
+    padding: 1px 0px; } }
+
+@media only screen and (min-width: 100px) and (max-width: 768px) {
+  footer {
+    background-color: #e3dac9;
+    display: flex; }
+  .redireccionarFooter {
+    color: #1c2636 !important;
+    font-size: 20px;
+    margin: 30px 10px; }
+  .textoFooterAcademia {
+    color: #1c2636;
+    font-size: 20px; }
+  .aRRSS {
+    color: #1c2636;
+    list-style-type: none;
+    font-size: 20px;
+    padding: 1px 0px; } }

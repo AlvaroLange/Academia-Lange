@@ -1,0 +1,20 @@
+@import "colores";
+
+@media only screen and (min-width: 1023px) {
+    nav {
+        background-color: $azulaf;
+    }
+    .colorNav {
+        color: $crema !important;
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 100px) and (max-width: 768px) {
+    nav {
+        background-color: $blanco;
+    }
+    .colorNav {
+        color: $azulaf !important;
+    }
+}
