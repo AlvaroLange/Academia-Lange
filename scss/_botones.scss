@@ -1,0 +1,58 @@
+@import "colores";
+
+$botones: (
+    colorfondo: $azulaf,
+    centro: center,
+    fontsize: 20px,
+    bordes: solid 3px $crema,
+    radiusborder: 10px
+);
+.Boton {
+    background-color: map-get($botones, colorfondo);
+    text-align: map-get($botones, centro);
+    font-size: map-get($botones, fontsize);
+    border: map-get($botones, bordes);
+    border-radius: map-get($botones, radiusborder);
+}
+
+$abotones: (
+    font: 15px,
+    color: $crema,
+    pad: 3px
+);
+
+.Aboton {
+    font-size: map-get($abotones, font );
+    color: map-get($abotones, color);
+    padding: map-get($abotones, pad);
+}
+
+.boton--mandar {
+    @extend .Boton;
+    background-color: white;
+    border: solid 3px $azulaf;
+    padding: map-get($abotones, pad);
+}
+
+.boton--aceptar {
+    @extend .Boton;
+    background-color: white;
+    border: solid 3px $azulaf;
+    padding: map-get($abotones, pad);
+}
+
+.boton--resetear {
+    @extend .Boton;
+    background-color: white;
+    border: solid 3px $azulaf;
+    padding: map-get($abotones, pad);
+}
+
+@mixin botones ($width, $height) {
+    width: $width;
+    height: $height;
+}
+
+.Boton {
+    @include botones (70px, 40px);
+}
