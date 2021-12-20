@@ -49,10 +49,10 @@ $abotones: (
 }
 
 @mixin botones ($width, $height) {
-    width: $width;
-    height: $height;
+    max-width: $width;
+    max-height: $height;
 }
 
 .Boton {
-    @include botones (70px, 40px);
+    @include botones (100%, 100%);
 }

@@ -1,2 +1,52 @@
 @import "colores";
 
+.parrafoInicio {
+    @media only screen and (min-width: 100px) and (max-width: 768px) {
+        font-size: 20px;
+        text-align: start;
+        padding-bottom: 20px;
+    }
+    @media only screen and (min-width: 1024px) {
+        font-size: 30px;
+    }
+    padding-top: 30px;
+}
+
+.liInicio {
+    @media only screen and (min-width: 100px) and (max-width: 768px) {
+        font-size: 18px;
+        padding-bottom: 3px;
+    }
+    @media only screen and (min-width: 1024px) {
+        font-size: 23px;
+    }
+}
+
+.divApertura {
+    @media only screen and (min-width: 100px) and (max-width: 768px) {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    @media only screen and (min-width: 1024px) {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+.aperturaInicio {
+    text-align: center;
+    margin-top: 50px;
+    @media only screen and (min-width: 100px) and (max-width: 768px) {
+        padding: 50px 20px 0px 20px;
+    }
+}
+
+.carruselInicio {
+    @media only screen and (min-width: 1024px) {
+        margin: 20px 0px 100px 0px;
+    }
+}
