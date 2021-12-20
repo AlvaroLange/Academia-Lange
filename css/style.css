@@ -126,3 +126,33 @@ img {
 .Boton, .boton--mandar, .boton--aceptar, .boton--resetear {
   max-width: 100%;
   max-height: 100%; }
+
+@media only screen and (min-width: 1024px) {
+  .sectionAcademia {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
+    padding-bottom: 40px; }
+    .sectionAcademia h1 {
+      font-size: 40px; }
+    .sectionAcademia p {
+      font-size: 25px; } }
+
+@media only screen and (min-width: 100px) and (max-width: 768px) {
+  .marketingacademia {
+    height: 300px;
+    width: 300px;
+    margin: 0px 50px; } }
+
+@media only screen and (min-width: 100px) and (max-width: 768px) {
+  .marketinginicioDos {
+    height: 250px; } }
+
+@media only screen and (min-width: 100px) and (max-width: 768px) {
+  .ultimoTextoAcademia {
+    padding: 50px 10px; } }
+
+@media only screen and (min-width: 100px) and (max-width: 768px) {
+  .videoaf {
+    max-width: 100%; } }
