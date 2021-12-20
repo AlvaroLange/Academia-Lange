@@ -156,3 +156,29 @@ img {
 @media only screen and (min-width: 100px) and (max-width: 768px) {
   .videoaf {
     max-width: 100%; } }
+
+@media only screen and (min-width: 100px) and (max-width: 768px) {
+  .sectionCursos {
+    border: solid 3px #1c2636;
+    border-radius: 10px;
+    margin: 20px; }
+    .sectionCursos img {
+      padding-left: 50px; }
+    .sectionCursos p {
+      font-size: 20px;
+      text-align: center;
+      padding: 5px 10px; }
+    .sectionCursos button {
+      margin-left: 200px;
+      margin-bottom: 20px; } }
+
+@media only screen and (min-width: 1023px) {
+  .sectionCursos {
+    border: solid 3px #1c2636;
+    border-radius: 10px;
+    margin: 20px 400px; }
+    .sectionCursos p {
+      font-size: 20px;
+      padding: 20px 20px; }
+    .sectionCursos button {
+      margin: 0px 0px 20px 20px; } }

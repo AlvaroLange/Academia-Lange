@@ -1,0 +1,33 @@
+@import "colores";
+
+.sectionCursos {
+    @media only screen and (min-width: 100px) and (max-width: 768px) {
+        border: solid 3px $azulaf;
+        border-radius: 10px;
+        margin: 20px;
+        img {
+            padding-left: 50px;
+        }
+        p {
+            font-size: 20px;
+            text-align: center;
+            padding: 5px 10px;
+        }
+        button {
+            margin-left: 200px;
+            margin-bottom: 20px;
+        }
+    }
+    @media only screen and (min-width: 1023px) {
+        border: solid 3px $azulaf;
+        border-radius: 10px;
+        margin: 20px 400px;
+        p {
+            font-size: 20px;
+            padding: 20px 20px;
+        }
+        button {
+            margin: 0px 0px 20px 20px;
+        }
+    }
+}
