@@ -1,0 +1,33 @@
+@import "colores";
+
+.apartadoPlanes {
+    @media only screen and (min-width: 1023px) {
+        margin: 50px 0px;
+        p {
+            padding: 10px 50px 10px 0px;
+        }
+    }
+}
+
+.membresiaPlanes {
+    @media only screen and (min-width: 1023px) {
+        border: solid 3px $azulaf;
+        border-radius: 10px;
+        margin: 50px;
+        padding: 20px;
+    }
+    @media only screen and (min-width: 100px) and (max-width: 768px) {
+        border: solid 3px $azulaf;
+        margin: 50px;
+        border-radius: 10px;
+        padding: 10px;
+    }
+}
+
+.gridContainerPlanes {
+    @media only screen and (min-width: 1023px) {
+        display: flex;
+        justify-content: center;
+        
+    }
+}

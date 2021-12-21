@@ -182,3 +182,28 @@ img {
       padding: 20px 20px; }
     .sectionCursos button {
       margin: 0px 0px 20px 20px; } }
+
+@media only screen and (min-width: 1023px) {
+  .apartadoPlanes {
+    margin: 50px 0px; }
+    .apartadoPlanes p {
+      padding: 10px 50px 10px 0px; } }
+
+@media only screen and (min-width: 1023px) {
+  .membresiaPlanes {
+    border: solid 3px #1c2636;
+    border-radius: 10px;
+    margin: 50px;
+    padding: 20px; } }
+
+@media only screen and (min-width: 100px) and (max-width: 768px) {
+  .membresiaPlanes {
+    border: solid 3px #1c2636;
+    margin: 50px;
+    border-radius: 10px;
+    padding: 10px; } }
+
+@media only screen and (min-width: 1023px) {
+  .gridContainerPlanes {
+    display: flex;
+    justify-content: center; } }
