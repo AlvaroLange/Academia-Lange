@@ -1,0 +1,49 @@
+@import "colores";
+
+.articulosblog {
+    @media only screen and (min-width: 100px) and (max-width: 768px) {
+        border: solid 3px $azulaf;
+        margin: 20px;
+    }
+    @media only screen and (min-width: 1024px) {
+        border: solid 3px $azulaf !important;
+        margin: 50px;
+    }
+}
+
+.newsLetter {
+    @media only screen and (min-width: 100px) and (max-width: 768px) {
+        border: solid 3px $azulaf;
+        margin: 20px;
+        padding: 20px;
+    }
+    @media only screen and (min-width: 1024px) {
+        border: solid 3px $azulaf;
+        margin: 50px;
+        padding: 20px;
+        display: inline-block;
+        justify-content: center;
+    }
+}
+
+.tituloBlog {
+    @media only screen and (min-width: 1024px) {
+        font-size: 40px;
+        display: flex;
+        justify-content: center;
+    }
+}
+.parrafoBlog {
+    @media only screen and (min-width: 1024px) {
+        font-size: 25px;
+        display: flex;
+        text-align: center;
+        padding: 5px 100px;
+    }
+}
+.divParrafoBlogDos {
+    @media only screen and (min-width: 1024px) {
+        display: contents;
+        justify-content: center;
+    }
+}

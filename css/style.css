@@ -207,3 +207,45 @@ img {
   .gridContainerPlanes {
     display: flex;
     justify-content: center; } }
+
+@media only screen and (min-width: 100px) and (max-width: 768px) {
+  .articulosblog {
+    border: solid 3px #1c2636;
+    margin: 20px; } }
+
+@media only screen and (min-width: 1024px) {
+  .articulosblog {
+    border: solid 3px #1c2636 !important;
+    margin: 50px; } }
+
+@media only screen and (min-width: 100px) and (max-width: 768px) {
+  .newsLetter {
+    border: solid 3px #1c2636;
+    margin: 20px;
+    padding: 20px; } }
+
+@media only screen and (min-width: 1024px) {
+  .newsLetter {
+    border: solid 3px #1c2636;
+    margin: 50px;
+    padding: 20px;
+    display: inline-block;
+    justify-content: center; } }
+
+@media only screen and (min-width: 1024px) {
+  .tituloBlog {
+    font-size: 40px;
+    display: flex;
+    justify-content: center; } }
+
+@media only screen and (min-width: 1024px) {
+  .parrafoBlog {
+    font-size: 25px;
+    display: flex;
+    text-align: center;
+    padding: 5px 100px; } }
+
+@media only screen and (min-width: 1024px) {
+  .divParrafoBlogDos {
+    display: contents;
+    justify-content: center; } }
